@@ -11,7 +11,7 @@ Takes one boolean argument as to whether message should say cancelling is allowe
     path = raw_input(question);
     return path;
 
-logwait = 5; # how long the program waits before opening the log
+logwait = 10; # how long the program waits before opening the log
 answer = "";
 path = "";
 while path == "":
